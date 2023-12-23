@@ -10,6 +10,7 @@ import { FooterModule } from './footer/footer.module';
 import { NewsletterModule } from './newsletter/newsletter.module';
 import { HomePageModule } from './home-page/home-page.module';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -21,7 +22,7 @@ import { HomePageModule } from './home-page/home-page.module';
     TopBannerModule,
     HomePageModule,
     FooterModule,
-    NewsletterModule
+    NewsletterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
