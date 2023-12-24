@@ -1,0 +1,22 @@
+<div class="faq flex flex-col justify-center px-2">
+    <div class="question-container flex flex-row justify-between shadow-sm bg-white p-4">
+        <div class="question pr-4 font-medium">
+            {{faq.question}}
+        </div>
+        <button class="image flex items-center" (click)="showHide()">
+            <div class="down" *ngIf="!question">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>                          
+            </div>
+            <div class="up" *ngIf="question">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                  </svg>                          
+            </div>
+        </button>
+    </div>
+    <div class="answer p-4 lg:pl-4" *ngIf="question">
+        {{faq.answer}}
+    </div>
+</div>

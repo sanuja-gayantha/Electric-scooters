@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './home-page.component';
 import { HeroModule } from '../hero/hero.module';
-import { AboutSectionModule } from '../about-section/about-section.module';
 import { BestSellersModule } from '../best-sellers/best-sellers.module';
 import { ItemsSectionModule } from '../items-section/items-section.module';
 import { WhyChooseUsModule } from '../why-choose-us/why-choose-us.module';
-
+import { SupportModule } from '../support/support.module';
+import { TestimonialsModule } from '../testimonials/testimonials.module';
+import { FaqModule } from '../faq/faq.module';
 
 
 @NgModule({
@@ -18,7 +19,10 @@ import { WhyChooseUsModule } from '../why-choose-us/why-choose-us.module';
     HeroModule,
     BestSellersModule,
     ItemsSectionModule,
-    WhyChooseUsModule
+    WhyChooseUsModule,
+    SupportModule,
+    TestimonialsModule,
+    FaqModule,
 
   ],
   exports:[HomePageComponent]

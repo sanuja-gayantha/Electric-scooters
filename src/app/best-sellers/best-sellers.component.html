@@ -1,12 +1,14 @@
-<div class="best-sellers-wrapper p-4 mt-16">
-    <div class="title text-3xl font-montserrat font-bold mb-10 text-center">
+<div class="best-sellers-wrapper p-4 flex flex-col items-center mt-20">
+    <div class="title text-3xl font-montserrat font-bold text-center">
         <span class="border-b-4 border-secondery">
             Best Sellers
         </span>
     </div>
+    <span class="mt-4 text-center mb-20 w-[400px] text-sm">We're dedicated to providing you with the best value for your money.</span>
+
 
     <div class="items-grid flex flex-row flex-wrap gap-4 justify-center">
         <app-card  *ngFor="let bestSeller of bestSellersList"
-        [bestSeller]="bestSeller"s></app-card>
+        [bestSeller]="bestSeller"></app-card>
     </div>
 </div>

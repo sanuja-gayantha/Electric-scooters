@@ -16,3 +16,5 @@ git push -u origin main
   --ast-global-color-4: #f4fafc;
   --ast-global-color-5: #FFFFFF;
   --ast-global-color-6: #eaf1f3;
+
+  border border-black

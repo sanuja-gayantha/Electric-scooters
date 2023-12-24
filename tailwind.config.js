@@ -16,7 +16,7 @@ module.exports = {
         'primary-bg':'#1e1e27',
         'secondery':'#dc3545',
         'secondery-2':'#f4fafc',
-        'hero-bg':'#eaf1f3',
+        'footer-bg':'#eaf1f3',
 
         
       },
