@@ -4,4 +4,4 @@ This is an online shop that sells electric scooters and accessories and it is fu
 
 Check App --> https://electric-scooters.netlify.app/
 
-![screencapture-localhost-4200-2023-12-25-00_37_21](https://github.com/sanuja-gayantha/Electric-scooters/assets/52665243/321b9417-9b69-4c74-bf89-c709f1d95674)
+![Electric Scooters](https://github.com/sanuja-gayantha/Electric-scooters/assets/52665243/969c621d-729c-4d8f-aab4-445ab2915447)
